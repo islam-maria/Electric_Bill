@@ -1,0 +1,74 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body.index-body {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 11%, rgba(252, 70, 107, 1) 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #070707;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.index_div {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 90%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Heading Style */
+.index_head {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Navigation bar */
+.top-nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.login-btn {
+    background-color: #30e933;
+    color: black;
+
+    /* Green button */
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.register-btn {
+    background-color: #ff5722;
+    /* Orange button */
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    /* Slight zoom on hover */
+    opacity: 0.9;
+}

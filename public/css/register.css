@@ -1,0 +1,77 @@
+.register-body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-container {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.register-header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+.success-message {
+    color: green;
+    background-color: #e6ffe6;
+    padding: 10px;
+    border: 1px solid green;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.backbutton {
+    position: absolute;
+    top: 3px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #4f3aee;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.backbutton:hover {
+    background-color: #2d349a;
+}

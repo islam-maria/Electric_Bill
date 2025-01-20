@@ -1,0 +1,109 @@
+/* General Styles */
+body.dashboard-body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px 30px;
+    box-sizing: border-box;
+}
+
+/* Header */
+.dashboard-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Input Fields */
+form input[type="number"],
+form input[type="text"],
+form select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+form input[type="number"]:focus,
+form input[type="text"]:focus,
+form select:focus {
+    border: 1px solid #007bff;
+}
+
+/* Button */
+form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Select Dropdown */
+form select {
+    appearance: none;
+    background: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill="%23ccc" d="M4 6l4 4 4-4z"/></svg>') no-repeat right 10px center;
+    background-color: #fff;
+    background-size: 12px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .dashboard-container {
+        padding: 15px;
+    }
+
+    form input[type="number"],
+    form input[type="text"],
+    form select,
+    form button {
+        font-size: 14px;
+    }
+}
+.backbutton {
+    position: absolute;
+    top: 3px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #4f3aee;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.backbutton:hover {
+    background-color: #2d349a;
+}
