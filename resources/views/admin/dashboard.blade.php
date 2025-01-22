@@ -15,7 +15,7 @@
           
             <a href="{{ route('admin.user_add') }}" class="btn">Add New User</a>
             <a href="{{ route('admin.add_bill') }}" class="btn">Add new Bill</a>
-            <a href="{{ route('logout') }}" class="btn">Log Out</a>
+            <a href="{{ route('logout') }}" class="logoutbtn">Log Out</a>
         </div>
     </div>
 </body>
